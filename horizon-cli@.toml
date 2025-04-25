@@ -1,0 +1,20 @@
+[atom]
+id = "horizon-cli"
+version = "0.1.0"
+system = true
+registry = true
+pkgs = true
+lib = true
+
+[features]
+default = [ "lib", "pkgs" ]
+
+[fetch.rust-atom]
+
+[fetch.horizon-rs]
+type = "src"
+
+[fetch.lib]
+name = "lib"
+type = "import"
+subdir = "lib"
