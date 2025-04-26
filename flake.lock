@@ -31,6 +31,34 @@
         "type": "github"
       }
     },
+    "devenv-atom": {
+      "inputs": {
+        "make-atom": [
+          "make-atom"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-atom": [
+          "rust-atom"
+        ],
+        "system": "system"
+      },
+      "locked": {
+        "lastModified": 1745621928,
+        "narHash": "sha256-jI3xwxNoND7sQXpyQersUeRd1A7dm1da/f2BMBUURSg=",
+        "owner": "criome",
+        "repo": "devenv-atom",
+        "rev": "a511a3401f4da1e897b385675d8e90f7e8322be0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "criome",
+        "ref": "testing",
+        "repo": "devenv-atom",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "locked": {
         "lastModified": 1733328505,
@@ -120,11 +148,12 @@
     },
     "root": {
       "inputs": {
+        "devenv-atom": "devenv-atom",
         "horizon-rs": "horizon-rs",
         "make-atom": "make-atom",
         "nixpkgs": "nixpkgs",
         "rust-atom": "rust-atom",
-        "system": "system_2"
+        "system": "system_3"
       }
     },
     "rust-atom": {
@@ -138,7 +167,7 @@
         ],
         "rust-overlay": "rust-overlay",
         "src": "src",
-        "system": "system"
+        "system": "system_2"
       },
       "locked": {
         "lastModified": 1745618150,
@@ -209,6 +238,21 @@
       }
     },
     "system_2": {
+      "locked": {
+        "lastModified": 1741520211,
+        "narHash": "sha256-xHifvvYmRbOeUwQfo3D9mTHbh4oBmhg9iNhNGCuK8fk=",
+        "owner": "criome",
+        "repo": "system",
+        "rev": "ddffaa28acbcf95373bd8ed2d142ec9e6f6becbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "criome",
+        "repo": "system",
+        "type": "github"
+      }
+    },
+    "system_3": {
       "locked": {
         "lastModified": 1741520211,
         "narHash": "sha256-xHifvvYmRbOeUwQfo3D9mTHbh4oBmhg9iNhNGCuK8fk=",
