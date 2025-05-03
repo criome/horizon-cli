@@ -2,11 +2,11 @@
   "nodes": {
     "atom": {
       "locked": {
-        "lastModified": 1745611759,
-        "narHash": "sha256-bXb5J2AXjq8u3wqA5LbTRDaYto9QmHNUH7kJ5ZTGDRI=",
+        "lastModified": 1746231566,
+        "narHash": "sha256-JoxyS4MTrw3oKcjSyeK4qmNgEBGIlZ5e5YnltRw3CGY=",
         "owner": "LiGoldragon",
         "repo": "atom",
-        "rev": "5f85c3548627a7806963a757bcd24aa58824e5fb",
+        "rev": "b04470227089e8379acd57c411d1f48e55038d74",
         "type": "github"
       },
       "original": {
@@ -120,11 +120,11 @@
     "horizon-rs": {
       "flake": false,
       "locked": {
-        "lastModified": 1745788460,
-        "narHash": "sha256-NpALOvCIQ6tzQtlmGVmNxBrH/NKDzJwsvu+55nLPFQ8=",
+        "lastModified": 1746220063,
+        "narHash": "sha256-COMUGEVCreCXk59F4YIOH3Rbaij8W51MH4HMTZ08x9s=",
         "owner": "criome",
         "repo": "horizon-rs",
-        "rev": "8c7465e2fcd73d9c5385702e01c77991c491ef66",
+        "rev": "a1cba6c5b13b07d407a02550b17ca1d419d2e2fa",
         "type": "github"
       },
       "original": {
@@ -159,11 +159,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745618134,
-        "narHash": "sha256-LVjdx+0iLrhmggH2CRyvsPYFgr6mBDtlFFPd8QGM6s4=",
+        "lastModified": 1746304072,
+        "narHash": "sha256-II44K29Xsgulu2OSNQ/vSzFy0Q9n7tI9QCNVeya/wiU=",
         "owner": "criome",
         "repo": "make-atom",
-        "rev": "a5ea4413f85068290353d07322c159f717fd1b56",
+        "rev": "bd04e246319f90504ddb54524eb482f8b31fa595",
         "type": "github"
       },
       "original": {
