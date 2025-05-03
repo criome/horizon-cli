@@ -1,4 +1,4 @@
 {
-  atomSrc = registry.rust-atom;
+  atomSrc = get.rust-atom;
   inputs.src.src = get.horizon-rs;
 }

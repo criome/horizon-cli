@@ -6,8 +6,8 @@ registry = true
 pkgs = true
 lib = true
 
-[features]
-default = [ "lib", "pkgs" ]
+[backend.nix]
+fetcher = "flake-lock"
 
 [fetch.rust-atom]
 
